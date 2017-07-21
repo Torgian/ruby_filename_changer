@@ -13,7 +13,7 @@ Dir.chdir "#{home_dir}/#{folder_dir}"
 #This is source directory. Should hardcode this for a common SD Card path
 #that is commonly used.
 
-pic_names = Dir['/Users/nathanielnasarow/Desktop/rubytestsource/*.jpg']
+pic_names = Dir['pathname/*.jpg']
 
 puts 'What do you want to call this batch?'
 batch_name = gets.chomp
